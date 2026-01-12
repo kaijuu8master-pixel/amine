@@ -1,0 +1,19 @@
+package com.aminezaki.store;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class ProductController {
+
+    @GetMapping("/")
+    public String showProductPage(Model model) {
+        // We can pass data dynamically from Java to HTML if needed
+        model.addAttribute("productName", "Amine Zaki");
+        model.addAttribute("productPrice", 10.00);
+        
+        // This returns the index.html file
+        return "index";
+    }
+}

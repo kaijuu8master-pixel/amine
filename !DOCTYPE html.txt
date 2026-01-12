@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine Zaki - Potato Chips</title>
+    <link rel="stylesheet" href="/style.css"> </head>
+<body>
+
+    <div class="container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?q=80&w=500" alt="Amine Zaki Potato Chips">
+            </div>
+            
+            <div class="product-details">
+                <h1>Amine Zaki</h1>
+                <p class="description">
+                    Delicious, crunchy, and premium quality potato chips. 
+                    The perfect snack for your day!
+                </p>
+                
+                <div class="price-tag">
+                    <span class="currency">10</span> MAD
+                </div>
+
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
